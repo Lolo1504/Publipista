@@ -1,0 +1,116 @@
+body{margin: 0;
+padding: 0;}
+h1 {
+    text-align: center;
+    color: white;
+    font-family: Arial, sans-serif
+  }
+  h2{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, sans-serif
+  }
+  .A{
+    color: black;
+  }
+  h3{
+    text-decoration: none;
+    color: #ffc0cb;
+    font-family: Arial,  sans-serif;
+  }
+  h3:hover{
+    color: rgb(173, 106, 117);
+  }
+  a{text-decoration: none;}
+.perfil {
+    position: relative;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    padding: 10px;
+    top: 100%;
+    right: 0;
+}
+
+.dropdown-content a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 5px 0;
+}
+
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar h1 {
+    margin: 0;
+  }
+  
+  .navbar button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+.add{
+    position: absolute;
+   text-decoration: none;
+   padding: 20px;
+   left: 90%;
+   border-radius: 10px;
+   background-color: rgb(22, 132, 242);
+   color: white;
+}
+.add:hover{
+    background-color: rgb(26, 122, 218);
+}
+
+table{
+    width: 80%;
+    
+    color: #212529;
+   
+    border-color: #dee2e6;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  table th,
+  table td {
+    padding: 12px;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+  }
+  th{text-align: left;}
+  table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+  }

@@ -1,0 +1,127 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image: linear-gradient(45deg, #FFD700, #FFA07A);
+}
+
+
+h1 {
+    text-align: center;
+    color: white;
+    font-family: Arial, sans-serif
+  }
+  h1:hover{
+    color:#d1c7c7 ;
+  }
+  .aqui{
+    text-decoration: underline;
+    color: #d1c7c7;
+  }
+  h2{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, sans-serif
+  }
+  a{text-decoration: none;}
+.perfil {
+    position: relative;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    padding: 10px;
+    top: 100%;
+    right: 0;
+}
+
+.dropdown-content a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 5px 0;
+}
+
+.navbar {
+    background-color: black;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar h1 {
+    margin: 0;
+  }
+  
+  .navbar button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+
+.reserva-card {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 10px;
+  width: 300px;
+  text-align: center;
+  font-size: 20px;
+}
+
+
+.reserva-card p {
+    color: #181818;
+    margin-bottom: 5px;
+}
+strong{
+  position: absolute;
+  color: white;
+  font-size: 16px;
+  padding: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  background-color: red;
+  text-align: center;
+}
+.text-center {
+    text-align: center;
+}
+
+
+
